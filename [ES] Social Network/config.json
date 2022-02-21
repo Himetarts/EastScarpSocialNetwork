@@ -8,7 +8,7 @@
             {
                 "Sterling Rival hearts":
             {
-                "AllowValues": "Cambria, TraceAnny, none",
+                "AllowValues": "Cambria, TraceAnew, none",
                 "Default": "none",
                 "AllowBlank": false,
                 "Description": "Chooses Sterling rival hearts partner. Default to none in order for Sterling to be marrigeable."
@@ -22,7 +22,7 @@
             {
                 "ES Birthday Gatherings":
             {
-                "AllowValues": "all, none, base ES, arv, trsa, jade, juliet, yri",
+                "AllowValues": "all, none, base ES, arv, tyrsa, jade, juliet, yri",
                 "Default": "all",
                 "AllowBlank": false,
                 "Description": "Chooses whether ES characters can get together to celebrate their birthdays. You can also choose which characters specifically."

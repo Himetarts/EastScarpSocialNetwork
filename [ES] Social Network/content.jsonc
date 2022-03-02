@@ -1,0 +1,84 @@
+{
+ 
+    "Format": "1.23.0",
+
+
+    "ConfigSchema":
+    {
+        /*  {
+
+              // Ideal Configs we would have
+    
+                // Rival Hearts Config example
+
+                    "Sterling Rival hearts Example":
+                {
+                    "AllowValues": "Cambria, TraceAnew, none",
+                    "Default": "none",
+                    "AllowBlank": false,
+                    "Description": "Chooses Sterling rival hearts partner. Default to none in order for Sterling to be marrigeable."
+                },
+
+
+                // Birthday Configs
+
+                    "ES Birthday Gatherings":
+                {
+                    "AllowValues": "all, none, base ES, arv, tyrsa, jade, juliet, yri",
+                    "Default": "all",
+                    "AllowBlank": false,
+                    "Description": "Chooses whether ES characters can get together to celebrate their birthdays. You can also choose which characters specifically."
+                },
+                   
+                
+                // Farmer's Market Config
+                
+                    "ES Farmer's Market":
+                {
+                    "AllowValues": "true, false",
+                    "Default": "true",
+                    "AllowBlank": false,
+                    "Description": "Toggles the ES farmer's market."
+                },
+
+            },
+
+        */
+    },
+
+ 
+    "Changes":
+[
+
+    // INCLUDES: 
+
+        //Schedules
+        
+        {
+            "Action": "Include",
+            "FromFile": "ByThePond.json, InFrontofInn.json",
+        },
+        
+        //Birthdays
+        
+        {
+            "Action": "Include",
+            "FromFile": "",
+        },
+        
+        //Festivals
+        
+        {
+            "Action": "Include",
+            "FromFile": "",
+        },
+
+        //Rival Hearts
+        {
+            "Action": "Include",
+            "FromFile": "",
+        },
+]
+
+
+}

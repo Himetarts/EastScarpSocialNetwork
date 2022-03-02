@@ -1,0 +1,25 @@
+{
+    "Name": "East Scarp Social Network",
+    "Author": "East Scarp Authors",
+    "Description": "A cross compatibility hub for East Scarp Authors.",
+    "Version": "1.0.0",
+    "UniqueID": "ESAuthors.ESN.CP",
+    "ContentPackFor": {
+      "UniqueID": "Pathoschild.ContentPatcher"
+    },
+    "UpdateKeys": [ "" ],
+
+    "Dependencies": [
+        {
+        "UniqueID": "LemurKat.EastScarpe.CP",
+        "IsRequired": true,
+        },
+
+        {
+        "UniqueID": "Himetarts.ARV.CP",
+        "IsRequired": false,
+        },
+                    ]
+        
+        
+},

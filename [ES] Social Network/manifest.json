@@ -19,6 +19,27 @@
         "UniqueID": "Himetarts.ARV.CP",
         "IsRequired": false,
         },
+
+        {
+        "UniqueID": "yri.yri",
+        "IsRequired": false,
+        },
+
+        {
+        "UniqueID": "skellady.DNDCP",
+        "IsRequired": false,
+        },   
+
+        {
+        "UniqueID": "CreatorKami.TYRSA.CP",
+        "IsRequired": false,
+        },
+
+        {
+        "UniqueID": "7thAxis.LitD",
+        "IsRequired": false,
+        },
+
                     ]
         
         

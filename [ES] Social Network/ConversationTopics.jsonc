@@ -1,0 +1,45 @@
+{
+    "Changes": 
+    [
+// Conversation Topics for East Scarp Residents can go here:
+
+// For a list of available conversation topics: https://stardewmodding.wiki/wiki/Conversation_Topics
+
+
+            /// ARV 
+
+            {
+                "LogName": "Sterling ESSN CTs",
+                "Action": "EditData",
+                "Target": "Characters/Dialogue/Sterling",
+                "Entries": 	
+                {
+
+                },
+                "When": { "HasMod|contains=Himetarts.ARV.CP": true,}
+            },
+            {
+                "LogName": "Mia ESSN CTs",
+                "Action": "EditData",
+                "Target": "Characters/Dialogue/Mia",
+                "Entries": 	
+                {
+                    
+                },
+                "When": { "HasMod|contains=Himetarts.ARV.CP": true,}
+            },
+            {
+                "LogName": "Henry ESSN CTs",
+                "Action": "EditData",
+                "Target": "Characters/Dialogue/Henry",
+                "Entries": 	
+                {
+                    
+                },
+                "When": { "HasMod|contains=Himetarts.ARV.CP": true,}
+            }
+
+
+
+        ]
+}

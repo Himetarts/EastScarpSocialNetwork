@@ -1,0 +1,47 @@
+ 
+ {
+    "Changes": 
+      [
+
+    ///// MONDAY ///
+      
+        //Aro
+        
+      {
+        "LogName": "Mia Schedule Vanilla",
+        "Action": "EditData",
+        "Target": "Characters/schedules/Aro",
+        "Entries":
+            {
+                "spring_Mon": "630 Custom_InnRoomAro 4 5 3 AroSleep/730 Custom_InnRoomAro 6 5 1/830 Custom_EastScarpeInn 45 10 0/{{Random: 1100 Custom_EastScarpeInn 39 29 2 AroSweep++1100 Custom_EastScarpeInn 18 29 2 AroSweep++1100 Custom_EastScarpeInn 40 10 2 AroSweep++1100 Custom_EastScarpeInn 25 32 2 AroSweep|InputSeparator=++}}/a1700 Custom_EastScarpe 45 66 1/1930 Custom_ESClearingHouse 11 29 1 PebbleMan/2300 Custom_InnRoomAro 4 5 3 AroSleep",
+            },
+
+         "When": 
+            { 
+              "HasMod|contains=Rinny.Aro.CP": true,
+              "HasMod|contains=CreatorKami.TYRSA.CP": true,
+              "HasSeenEvent |contains=105090008": true,
+            },
+          
+        },
+    
+        // TYRSA - Trace
+        {
+          "LogName": "Anew Schedule",
+         "Action": "EditData",
+         "Target": "Characters/schedules/Anew",
+         "Entries": {
+                "fall_Wed": "610 Custom_EastScarpeInn 42 10 1/700 ArchaeologyHouse 1 10 2 anew_read/1330 Custom_EastScarpe 12 98 0/1630 Custom_EastScarpe 7 96 3/a2000 Custom_InnRoomTYRSA 2 5 0/2040 Custom_InnRoomTYRSA 5 7 1/2100 Custom_InnRoomTYRSA 2 7 3/a2130 Custom_InnRoomTYRSA 3 5 1 anew_sleep",
+         },
+         "When": 
+           { 
+           "HasMod|contains=": true,
+           "HasMod|contains=CreatorKami.TYRSA.CP": true,
+           "HasSeenEvent |contains=105090008": true,}
+       }
+
+      ]
+    }
+
+  
+  

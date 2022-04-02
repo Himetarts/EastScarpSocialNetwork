@@ -1,0 +1,60 @@
+ 
+ {
+    "Changes": 
+      [
+      
+    /*
+
+      VISITS TO TRACE AND ANNY'S STAND DURING THE FALL GO IN THIS DOC.
+
+      PLEASE NOTE THE DIFFERENT DAYS.
+
+    */
+      
+      ///// WEDNESDAYS ////
+      
+        //ARV - Mia
+        
+      {
+        "LogName": "Mia Schedule Vanilla",
+        "Action": "EditData",
+        "Target": "Characters/schedules/Mia",
+        "Entries":
+            {
+                // Mia stands in front of Trace and Anny's stand at 4:00 -> At 4:30 Anny and her move to step besides the cart and talk until 7:30 
+                "fall_Wed": "700 Custom_ARVHouse 13 6 3/800 Custom_ARVHouse 25 20 1/820 Custom_ARVHouse 25 21 1/940 Custom_ARVHouse 25 21 0/1030 Custom_ARVHouse 25 19 0 MiaDishes/a1600 Custom_EastScarpe 9 97 0/1630 Custom_EastScarpe 5 96 1/1930 Custom_ARVHouse 25 21 1/2000 Custom_ARVHouse 25 21 0/2020 Custom_ARVHouse 21 20 0/2040 Custom_ARVHouse 22 20 0/2050 Custom_ARVHouse 25 21 1/2120 Custom_ARVHouse 25 20 1/2130 Custom_ARVHouse 25 21 1/2200 Custom_ARVHouse 25 21 0/2330 Custom_ARVHouse 17 4 3 MiaSleep"
+            },
+
+         "When": 
+             
+            // Mia only visits when ARV **AND** TYRSA are installed + Has seen Anny's 8th heart event
+            { 
+              "HasMod|contains=Himetarts.ARV.CP": true,
+              "HasMod|contains=CreatorKami.TYRSA.CP": true,
+              "HasSeenEvent |contains=105090008": true,
+            },
+          
+        },
+    
+        // TYRSA - Anew
+        {
+          "LogName": "Anew Schedule",
+         "Action": "EditData",
+         "Target": "Characters/schedules/Anew",
+         "Entries": {
+          //Anew arrives at the stall at 3:20 pm -> moves at 4:30 to speak to Mia beside the cart until about 7:20
+          "fall_Wed": "610 Custom_EastScarpeInn 42 10 1/700 ArchaeologyHouse 1 10 2 anew_read/1330 Custom_EastScarpe 12 98 0/1630 Custom_EastScarpe 7 96 3/a2000 Custom_InnRoomTYRSA 2 5 0/2040 Custom_InnRoomTYRSA 5 7 1/2100 Custom_InnRoomTYRSA 2 7 3/a2130 Custom_InnRoomTYRSA 3 5 1 anew_sleep",
+         },
+         "When": 
+         //Anew only deviates in schedule when ARV **AND** TYRSA are installed + Has seen Anny's 8th heart event
+         { 
+           "HasMod|contains=Himetarts.ARV.CP": true,
+           "HasMod|contains=CreatorKami.TYRSA.CP": true,
+           "HasSeenEvent |contains=105090008": true,}
+       }
+
+      ]
+    }
+
+  
+  

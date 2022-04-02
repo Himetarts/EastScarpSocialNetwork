@@ -1,0 +1,61 @@
+ 
+ {
+    "Changes": 
+      [
+      
+
+
+      ///// MONDAY  /////
+
+          //ARV - Mia
+        {
+          "LogName": "Mia Schedule Vanilla",
+          "Action": "EditData",
+          "Target": "Characters/schedules/Mia",
+          "Entries":
+              {
+                "spring_Mon": "700 Custom_ARVHouse 13 6 3/800 Custom_ARVHouse 25 20 1/820 Custom_ARVHouse 25 21 1/940 Custom_ARVHouse 25 21 0/1030 Custom_ARVHouse 25 19 0 MiaDishes/1300 Custom_EastScarpe 22 62 1/1800 Custom_ARVHouse 25 21 1/2000 Custom_ARVHouse 25 21 0/2020 Custom_ARVHouse 21 20 0/2040 Custom_ARVHouse 22 20 0/2050 Custom_ARVHouse 25 21 1/2120 Custom_ARVHouse 25 20 1/2130 Custom_ARVHouse 25 21 1/2200 Custom_ARVHouse 25 21 0/2330 Custom_ARVHouse 17 4 3 MiaSleep",
+              },
+          "When":    
+              //Mia only attends if Anew OR Yri are installed
+              { 
+            "HasMod|contains=Himetarts.ARV.CP": true,
+            "HasMod|contains=CreatorKami.TYRSA.CP,yri.yri": true,
+              },
+            
+        },
+
+        // TYRSA - Anew
+        {
+           "LogName": "Anew Schedule",
+          "Action": "EditData",
+          "Target": "Characters/schedules/Anew",
+          "Entries": {
+                        "spring_Mon":"",
+                     },
+          "When":
+           {
+            "HasMod|contains=CreatorKami.TYRSA.CP": true,
+            "HasMod|contains=yri.yri,Himetarts.ARV.CP": true,
+            "HasSeenEvent |contains=105090008": true, 
+           } 
+         
+        },
+
+        // ES - Aideen
+        {
+          "LogName": "Anew Schedule",
+         "Action": "EditData",
+         "Target": "Characters/schedules/Aideen",
+         "Entries": {
+                      "spring_Mon": "700 Custom_ESHouse1 19 19 0/800 Custom_ESHouse1 19 20 2/900 Custom_EastScarpe 12 50 square_5_2/1100 Custom_EastScarpe 43 106 1/1400 Custom_EastScarpe 52 41 2/1600 Custom_ESHouse1 24 62 3/1900 Custom_ESHouse1 19 20 2/2020 Custom_ESHouse1 5 6 3/2100 Custom_ESHouse1 6 4 3 aideen_sleep",
+                    },
+         "When": {"HasMod|contains=CreatorKami.TYRSA.CP,yri.yri,Himetarts.ARV.CP": true,}
+        }
+
+
+      ]
+   }
+  
+  
+  

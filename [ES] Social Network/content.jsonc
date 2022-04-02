@@ -52,12 +52,20 @@
 
     // INCLUDES: 
 
-        //Schedules
-        
+         //Schedules
+            //SPRING
         {
+            "LogName": "Spring Includes",
             "Action": "Include",
-            "FromFile": "ByThePond.json, InFrontofInn.json",
+            "FromFile": "Schedules/Seasonal_Spring/Spring_Pond.json,Schedules/Seasonal_Spring/Spring_InnCourtyard.json",
         },
+            //FALL
+        {
+            "LogName": "Fall Includes",
+            "Action": "Include",
+            "FromFile": "Schedules/Seasonal_Fall/Fall_TraceStand.json",
+        },
+
         
         //Birthdays
         

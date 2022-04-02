@@ -31,7 +31,7 @@
           "Action": "EditData",
           "Target": "Characters/schedules/Anew",
           "Entries": {
-                        "spring_Mon":"",
+                        
                      },
           "When":
            {
@@ -44,15 +44,30 @@
 
         // ES - Aideen
         {
-          "LogName": "Anew Schedule",
+          "LogName": "Aideen Schedule",
          "Action": "EditData",
          "Target": "Characters/schedules/Aideen",
          "Entries": {
-                      "spring_Mon": "700 Custom_ESHouse1 19 19 0/800 Custom_ESHouse1 19 20 2/900 Custom_EastScarpe 12 50 square_5_2/1100 Custom_EastScarpe 43 106 1/1400 Custom_EastScarpe 52 41 2/1600 Custom_ESHouse1 24 62 3/1900 Custom_ESHouse1 19 20 2/2020 Custom_ESHouse1 5 6 3/2100 Custom_ESHouse1 6 4 3 aideen_sleep",
+                      "spring_Mon": "700 Custom_ESHouse1 19 19 0/800 Custom_ESHouse1 19 20 2/900 Custom_EastScarpe 12 50 square_5_2/1100 Custom_EastScarpe 43 106 1/1300 Custom_EastScarpe 24 62 3/2020 Custom_ESHouse1 5 6 3/2100 Custom_ESHouse1 6 4 3 aideen_sleep",
                     },
          "When": {"HasMod|contains=CreatorKami.TYRSA.CP,yri.yri,Himetarts.ARV.CP": true,}
-        }
+        },
 
+       //Yri - Yri
+         {
+          "LogName": "Yri Schedule Vanilla",
+          "Action": "EditData",
+          "Target": "Characters/schedules/Yri",
+          "Entries": {
+                  "spring_Mon": "spring_Mon": "610 Custom_Yri_House 12 4 3/730 ScienceHouse 7 20 0/1200 Custom_Yri_House 21 8 0 YriWork/1400 Custom_EastScarpe 23 61 0/2000 Custom_Yri_House 18 19 3 YriSit/2330 Custom_Yri_House 12 4 3 YriSleep",
+                     },
+            "When":    
+                { 
+              "HasMod|contains=yri.yri": true,
+              "HasMod|contains=CreatorKami.TYRSA.CP,Himetarts.ARV.CP": true,
+                },
+              
+          },
 
       ]
    }
